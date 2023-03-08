@@ -1,4 +1,4 @@
-# message-from-vk-bot
+# message-from-vk-bot v0.1
 ## Программа для отправки сообщения в VK, от имени бота(сообщества) на Python.
 
 ---
