@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from send import Message_Send
 
 
 class Ui_Dialog(object):
@@ -80,7 +80,8 @@ class Ui_Dialog(object):
         self.pushButton.clicked.connect(self.event_btn)   
 
     def event_btn(self):
-        print("hello")
+        message_send = Message_Send()
+        message_send.send(self.lineEdit_2.text(), self.lineEdit.text())
 
 if __name__ == "__main__":
     import sys
