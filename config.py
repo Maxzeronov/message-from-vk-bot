@@ -1,1 +1,1 @@
-TOKEN_VK_BOT = "90b54d5f4e80dd4c2bc42c64786bfac8bda03af2581f33b313b1825ad9fef2a4e33f7c17c88b56a2d91c5"
+TOKEN_VK_BOT = "ВАШ ТОКЕН"
