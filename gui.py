@@ -80,7 +80,7 @@ class Ui_Dialog(object):
         self.pushButton.clicked.connect(self.event_btn)   
 
     def event_btn(self):
-        message_send = Message_Send()
+        message_send = Message_Send(self.lineEdit_3.text())
         message_send.send(self.lineEdit_2.text(), self.lineEdit.text())
 
 if __name__ == "__main__":
